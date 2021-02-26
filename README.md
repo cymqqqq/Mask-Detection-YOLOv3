@@ -74,6 +74,7 @@ Detect people with/without masks using images:
 $ py image_detector.py -i C:\Users\Acer\PycharmProjects\mask_detection_YOLOv3\test_images -o C:\Users\Acer\PycharmProjects\mask_detection_YOLOv3\mask_detection_v1\test_images_result  -w C:\Users\Acer\PycharmProjects\mask_detection_YOLOv3\mask_detection_v1\yolov3_last.weights -cfg C:\Users\Acer\PycharmProjects\mask_detection_YOLOv3\mask_detection_v1\darknet\cfg\YOLOv3.cfg -n C:\Users\Acer\PycharmProjects\mask_detection_YOLOv3\mask_detection_v1\darknet\data\obj.names
 ```
 
+You can view the output for each model in Mask-Dectection-YOLOv3/INPUT_MODEL/test_images_result
 
 Detect people with/without masks using live camera:
 ```
@@ -83,4 +84,4 @@ $ py video_detector.py -w C:\Users\Acer\PycharmProjects\mask_detection_YOLOv3\ma
 If you plan to convert frames into video, run frames_into_videos.py
 
 ## License:
-This project is under the [MIT](https://github.com/spartan737/mask_detection_YOLOv3/blob/main/LICENSE) license.
+This project is under the [MIT](https://github.com/spartan737/Mask-Detection-YOLOv3/blob/master/LICENSE) license.
