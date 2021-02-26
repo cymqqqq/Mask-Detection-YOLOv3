@@ -1,7 +1,7 @@
 # Mask Detection with YOLOv3 using Custom Dataset
 
 ## Introduction:
-The project was actually completed in October 2020 but forgot to upload it then.
+The project was actually completed in early 2020 but I forgot to upload it previously.
 
 The widespread of Covid-19 make it necessary for people to wear mask when they are outside. As such, I have decided to make a mask detection model which aims to ensure people wear their mask when they are outside of their homes.
 
@@ -62,7 +62,7 @@ Run utilities.py in order to:
 - check that each image has a corresponding text file
 - split images into training and testing dataset
 
-Then, upload notebooks and images into Google Drive. Run the codes in the notebooks on Google Colab. Remember to change Runtime Type to GPU.
+Then, upload the entire mask_detection folder you wish to train into Google Drive. Run the codes in mask_detection.ipynb on Google Colab. Remember to change Runtime Type to GPU.
 
 After training the model, download the weights into local computer. Transfer the weights to the directory of the model (example: mask_detection_YOLOv3\mask_detection_v1)
 
